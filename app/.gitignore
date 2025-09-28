@@ -1,0 +1,40 @@
+# --------------------------------------------------------------------------- #
+# Archivos y Directorios Generados por Android Studio y Gradle
+# --------------------------------------------------------------------------- #
+
+# Carpetas de construcción de Android Studio (Build Folders)
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+
+# Carpetas de salida de compilación
+/build
+/app/build
+/app/*/build
+/app/release/output.json
+
+# Archivos de caché y temporales
+.gradle
+.idea/caches/
+.idea/libraries/
+
+# Archivos de configuración de compilación de Gradle
+*.iml
+.gradle/
+.idea/gradle.xml
+.idea/libraries
+
+# Claves de firma (NO deben subirse a repositorios públicos)
+*.jks
+*.keystore
+
+# Archivos de depuración y ejecución
+*.apk
+*.aab
+*.aar
+*.log
+
+# Archivos de Kotlinx Serialization generados (pueden ser ignorados)
+# Aunque a veces son necesarios para el IDE, es mejor que se generen localmente.
+*.kotlin_module
